@@ -46,3 +46,18 @@ Para crear un programa en node es necesario usar npm, pero antes que nada...
 npm -h
 ```
 
+Aqui podras encontrar los comandos mas importantes de npm, por lo pronto nosotros usaremos npm init
+
+```shell
+npm init
+```
+
+Esto creara una estructura de archivos pre establecida que usa Node para sus scripts
+
+![Estructura basica de un proyecto en node](http://i.imgur.com/aPLb1t8.png) 
+
+```shell
+indes.js // es el archivo principal y que se ejecuta con el comando npm start
+package.json // Archivo de configuracion en el que se guardan los parametros del paquete
+node_modules // carpeta en la que se instalan otros paquetes como react y el que nosotros crearemos hoy
+```
